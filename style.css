@@ -18,6 +18,10 @@ body{
     justify-content: center;
 }
 
+h1 {
+    color:#143D60;
+}
+
 .container{
     background-color: #DDEB9D;
     width: 30%;
@@ -28,6 +32,7 @@ body{
     max-width: 30%;
     /* height: 300px; */
     padding: 39px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .inp-con{
@@ -39,19 +44,23 @@ body{
 }
 
 #text-inp{
-    width: 70%;
+    width: 71%;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 19px;
+    border: none;
     color:#000;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #text-btn{
     width: 25%;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
+    /* border: none; */
     color: #000;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .task-field{
