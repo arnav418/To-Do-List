@@ -1,6 +1,6 @@
 const button = document.getElementById('text-btn');
 let textField = document.getElementById('text-inp');
-let listItems = document.querySelector('ul');
+let listItems = document.querySelector('ol');
 
 button.addEventListener("click", function() {
     if (textField.value === "") {

@@ -11,7 +11,8 @@
 }
 
 body{
-    background-color: #A0C878;
+    /* background-color: #A0C878; */
+    background-color: #000;
     display: flex;
     align-items: center;
     height: 100vh;
@@ -24,6 +25,7 @@ h1 {
 
 .container{
     background-color: #DDEB9D;
+    border: 3px solid yellow;
     width: 30%;
     border-radius: 8px;
     display: flex;
@@ -32,7 +34,7 @@ h1 {
     max-width: 30%;
     /* height: 300px; */
     padding: 39px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(108, 99, 99, 0.35) 0px 5px 15px;
 }
 
 .inp-con{
@@ -70,10 +72,11 @@ h1 {
 
 }
 
-ul li {
+ol li {
     /* padding: 20px; */
     color: green;
-    list-style: none;
+    /* list-style: none; */
     padding: 10px;
+    padding-left: 10px;
     font-size: 18px;
 }
