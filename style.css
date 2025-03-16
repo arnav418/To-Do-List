@@ -11,8 +11,7 @@
 }
 
 body{
-    /* background-color: #A0C878; */
-    background-color: #000;
+    background-color:#DDEB9D;
     display: flex;
     align-items: center;
     height: 100vh;
@@ -24,7 +23,7 @@ h1 {
 }
 
 .container{
-    background-color: #DDEB9D;
+    background-color: #A0C878;
     border: 3px solid yellow;
     width: 30%;
     border-radius: 8px;
@@ -39,16 +38,16 @@ h1 {
 
 .inp-con{
     display: flex;
-    /* background-color: yellow; */
     justify-content: space-between;
     width: 35   0px;
     margin-top: 12px;
+    max-height: 50vh;
 }
 
 #text-inp{
     width: 71%;
     height: 40px;
-    border-radius: 16px;
+    border-radius: 10px;
     padding: 19px;
     border: none;
     color:#000;
@@ -59,10 +58,11 @@ h1 {
     width: 25%;
     height: 40px;
     border-radius: 10px;
-    /* border: none; */
+    border: none;
     color: #000;
     font-size: 15px;
     font-weight: 600;
+    transition: .2s linear 0s;
 }
 
 .task-field{
@@ -74,9 +74,22 @@ h1 {
 
 ol li {
     /* padding: 20px; */
-    color: green;
+    /* color: green; */
     /* list-style: none; */
     padding: 10px;
+    color: #000;
     padding-left: 10px;
     font-size: 18px;
+}
+
+li {
+    background-color: white;
+    margin-bottom: 6px;
+    width: 350px;
+}
+
+
+/* Hover Class */ 
+#text-btn:hover{
+    transform: perspective(200px)  translateZ(-15px);
 }
